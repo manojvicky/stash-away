@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+.header {
+  height: 20%;
+  border-bottom: 2px solid lightgray;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.content {
+  padding: 10px 20px;
+}
+.indiContent {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding: 10px 20px;
+  display: flex;
+  height: 70%;
+}
+.left {
+  width: 20%;
+}
+span.label,
+span.contentSpan {
+  display: block;
+  width: 100%;
+  text-align: left;
+  height: 38px;
+}
+.inputouter {
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  margin: auto;
+  width: 80%;
+  align-items: center;
+}
+span.inpLabel {
+  margin-right: 20px;
+}
